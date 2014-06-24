@@ -99,8 +99,8 @@ namespace RamProject
             while (tempSensor.curVal < kc.BoilingTemp && waterSensor.waterLevel)
             {
                 Console.Write("..");
-                Console.Beep(100, 300);
-                Console.Beep(100, 300);
+                Console.Beep(500, 300);
+                Console.Beep(500, 300);
                 tempSensor.curVal+=2;
             }
 
